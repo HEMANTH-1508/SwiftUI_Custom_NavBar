@@ -12,11 +12,14 @@ struct MainTabView: View {
     @State private var selectedTab: Tab = .home
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            Color(.systemGroupedBackground)
-                .ignoresSafeArea()
-            currentScreen
-            CustomBottomBar(selectedTab: $selectedTab)
+        ZStack {
+            Color(.black.opacity(0.5))
+                .ignoresSafeArea(.all)
+            VStack {
+                currentScreen
+                Spacer()
+                CustomBottomBar(selectedTab: $selectedTab)
+            }
         }
     }
 }
