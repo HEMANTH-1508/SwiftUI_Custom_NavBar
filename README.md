@@ -13,3 +13,8 @@ This repository consists of custom navigation bar for iOS Mobile Applications
 # Orbit Dock Navigation Bar
 
 <img src="ASSETS/ORBIT_DOCK.png"/> 
+
+
+# Flux Wave Navigation Bar
+
+<img src="ASSETS/FluxWave_NavBar.png"/> 
